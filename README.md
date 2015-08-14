@@ -1,4 +1,4 @@
-# a2-steamaccountcheck
+# a2-steamaccountcheck [Download](https://github.com/maca134/a2-steamaccountcheck/releases)
 An ARMA extension to check player id are shared or not.
 
 ## Install
@@ -10,6 +10,8 @@ Place the DLL and INI in a server-side @mod folder (@dayz_server). Then add the 
 Then edit the settings.ini with the correct details. You can get a Steam API key from [here](https://steamcommunity.com/dev/apikey). The app id for ARMA 2 is 33930.
 
 Once you start the server, when the callExtension is called, an async task is started to check the playerid. The performance impact is minimal as all the checking happens away from ARMA.
+
+Everything gets logged into a folder called "logs" in the same folder the DLL is placed.
 
 ### HTTP Log
 
